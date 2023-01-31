@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* *****************************navber start************************************ */
+.container-fluid.body{
+     background: url(../images/education_header)
+     no-repeat;
+     max-height: 100%;
+     background-position: center;
+     padding-bottom: 287px;
+     align-items: center; 
+     background-size: cover;
+     background-attachment: fixed;
+}
+li.nav-item {
+    margin-left: 20px;
+}
+a.nav-link { 
+    text-align: center; 
+}
+ 
+.navbars {
+    background-color: #b97f93;
+    width: 100%;
+}
+span.navbar-toggler-icon {
+    border: 2px solid red;
+}
+a.nav-link {
+    color: white !important;
+}
+li.nav-item:hover {
+    background-color: #29A6DC;
+    text-align: center;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+img.img-fluid.logo {
+    width: 120px;
+}
+h3.EDUCATION {
+    padding-top: 250px;
+    color: white; 
+    font-family: sans-serif;
+}
+h5.Endless {
+    color: wheat;
+    font-family: sans-serif;
+}
+/* *****************************navber end************************************ */
+/* *****************************EDUCATION  start************************************ */
+.container-fluid.EDUCATION { 
+    background-color: #c56e8c;
+    padding-bottom: 27px !important;
+}
+h3.BEST {
+    color: white;
+    font-family: sans-serif;
+    margin-top: 56px;
+}
+h5.SELECT {
+    color: wheat;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+.row{
+    /* margin-top: 5%; */
+    display: flex;
+    justify-content: space-between;
+}
+.course-col{
+    flex-basis: 31%;
+    background: #E2463B;
+    height: 85%;
+    margin-top: 27px;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+h3.under{
+    text-align: center;
+    background-color: #F44336;
+    font-weight: 600;
+    margin: 10px 0;
+    color: wheat;
+}
+p.Postgraduate {
+    color: wheat;
+    text-align: center;
+    background-color: #F44336;
+    font-family: sans-serif;
+}
+.course-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.438);
+}
+/* *****************************EDUCATION  end************************************ */
+/* *****************************experience  start************************************    */
+.container-fluid.experience {
+    background: url(../images/education_banner)
+    no-repeat;
+    min-height: 450px; 
+    align-items: center; 
+    background-size: cover; 
+}
+h3.experience {
+    margin-top: 40px;
+    color: #087ce2;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+p.We {
+    color: #E2463B;
+    font-weight: bolder;
+    line-height: 3;
+    font-size: 18px;
+}
+.box.text-center {
+    /* border: 1px dashed rgb(44, 44, 75); */
+    background-color: #F44336; 
+    padding: 22px;
+    border-radius: 15px;
+    line-height: 2;
+    margin-bottom: 5%;
+} 
+i.fa.fa-history {
+    color: wheat; 
+}
+i.fa.fa-gift {
+    color: wheat; 
+}
+i.fa-brands.fa-500px {
+    color: wheat;
+}
+i.fa.fa-car {
+    color: wheat; 
+}
+.counter {
+    color: whitesmoke;
+    font-size: 40px;
+    font-family: serif;
+}
+.texts {
+    color: #2C3091;
+    font-size: 22px;
+    font-family: initial;
+    text-align: center;
+}
+/* *****************************experience  end************************************ */
+/* *****************************OUR GLOBAL start************************************    */
+.container-fluid.GLOBAL{  
+    background-color: #9db6c1;
+    /* width: 80%; */
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.container-fluid.GLOBAL p{
+    color: rgb(20, 19, 19);
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+}
+h1.GLOBAL {
+    color: chartreuse;
+    font-weight: bolder;
+    font-family: sans-serif; 
+}
+h4.Choose {
+    color: coral;
+    font-weight: bold;
+    padding-bottom: 33px;
+    margin-top: 20px;
+    padding-bottom: 27px px;
+    font-family: sans-serif;
+}
+.OUR{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+  }
+  .OUR.img-fluid.rounded{
+    width: 100%;
+    display: block;
+}
+.overlay{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+ .overlay:hover {
+    background: rgba(226, 0, 0, 0.7);
+  }
+
+  .overlay h3{
+    width: 100%;
+    font-weight: 500;
+    color: white;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.overlay:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+/* *****************************OUR GLOBAL end************************************ */
+/* *****************************OUR FACILITIES start************************************ */
+.container-fluid.FACILITIES {
+    background-color: #758db7;
+    padding-bottom: 26px;
+}
+
+h1.FACILITIE {
+    padding-top: 36px;
+    color: wheat;
+    font-family: sans-serif;
+}
+p.Lorem {
+    color: white;
+    line-height: 2;
+    font-family: sans-serif;
+}
+img.img-fluid.rounded {
+    margin-top: 26px;
+}
+p.mytext {
+    margin-top: 31px;
+    font-size: 26px;
+    font-weight: 700;
+    color: wheat;
+    font-family: sans-serif;
+}
+p.mytexts {
+    margin-top: 20px;
+    font-size: 36px;
+    color: wheat;
+    font-family: sans-serif;
+}
+p.lorems {
+    color: white;
+    /* font-weight: 700; */
+    font-family: sans-serif;
+}
+/* *****************************OUR FACILITIES end************************************ */
+/* *****************************student says start************************************ */
+.container-fluid.student {
+    background: url(../images/student) no-repeat;  
+    min-height: 450px; 
+    align-items: center; 
+    background-size: cover; 
+    padding-bottom: 30px;
+}
+h1.what {
+    padding-top: 30px;
+    color: blueviolet;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+h4.Lorem {
+    color: #C9CFDB;
+    font-family: sans-serif;
+}
+.card {
+    margin-top: 30px;
+}
+/* *****************************student says end************************************ */
+/* *****************************student join start*********************************** */
+/* .container-fluid.join {
+    background: url(../images/join\ us) no-repeat;
+    min-height: 450px; 
+    align-items: center; 
+    background-size: cover; 
+    padding-bottom: 30px;
+}
+h1.Join {
+    margin-top: 30px;
+    color: cornflowerblue;
+    font-family: serif;
+    text-align: center;
+} */
+
+   /* *****************************student join end*********************************** */
+   /* *****************************student contact start*********************************** */
+   .container-fluid.contact {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) 
+                                   ,url(../images/contact) no-repeat;
+    min-height: 450px;  
+    background-size: cover; 
+    padding-bottom: 30px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+   }
+ 
+h4.ipsum {
+    /* margin-top: 51px; */
+    color: aqua;
+    background-color: #EF4D3E;
+    padding: 22px;
+    font-family: sans-serif;
+}
+button.btn-lg {
+    padding: 20px 30px;
+    border: none;
+    margin-top: 22px;
+    color: red;
+    border: 1px solid white;
+    background: transparent;
+    font-weight: 700;
+}
+button.btn-lg:hover {
+    background-color: #E2463B;
+    color: aliceblue;
+}
+   /* *****************************student contact end*********************************** */
+   /* *****************************footert start*********************************** */
+   div#fromfooter { 
+    background: url(../images/last\ image.jpg);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    padding-bottom: 30px;
+}
+.Get { 
+    text-align: center;
+    font-size: 32px;  
+    font-weight: bolder;
+    width: 100%;
+    color: white;
+}
+.Boost {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder; 
+    margin-top: 24px;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+input.form-control {
+    height: 50px !important;
+    margin-bottom: 2%;
+}
+.WORK {
+    background-color: #EF4D3E; 
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    border: none;
+}
+.WORK:hover { 
+    background-color: #0E2541;
+    color: white;
+}
+   /* *****************************footert end*********************************** */
+   /* *****************************last section start*********************************** */
+   .container-fluid.last {
+    background-color: #73b3cf;
+    padding-bottom: 20px;
+}
+.font{
+    margin-top: 20px;
+    padding: 20px;
+}
+.fa:hover{
+color: rgba(231, 121, 121, 0.87);
+}
+.container-fluid.from {
+    background: url(../images/footer\ contact) no-repeat;
+    background-position: center; 
+    background-size: cover;
+    padding-bottom: 30px;
+}
+h1.STUDENTS {
+    COLOR: BROWN;
+    font-weight: 700;
+    font-family: serif;
+    text-align: center;
+}
+.container-fluid.stuentlist {
+    background-color: #92c8df;
+    width: 100%;
+}
+#last {
+    background-color: green;
+}
+a {
+    text-decoration: none;
+}
+   /* *****************************last section end*********************************** */

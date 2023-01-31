@@ -1,0 +1,195 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and  (min-width: 200px) and (max-width: 425px)  {
+    
+    .container-fluid.GetMore h1 {
+        margin-top: 0%;
+        font-size: 42px;
+        line-height: 60px;
+    }
+    button.Try {
+        margin-left: 20px;
+    }
+    .container-fluid.Project h2 {
+        text-align: center;
+    }
+    .container-fluid.Project button.Get { 
+        margin-top: 80px;
+        margin-left: 45px; 
+    }
+    .container-fluid.Project p {
+        text-align: center;
+    }
+    .container-fluid.Work h3 { 
+        text-align: center;
+    }
+    .container-fluid.Work p {
+        text-align: center;
+
+    } 
+    .container-fluid.Work button.Tryit {
+        margin-left: 54px;
+    }
+    .container-fluid.Useas h2 {
+        text-align: center;
+        font-size: 33px;
+
+    }
+    .container-fluid.Useas p {
+        text-align: center;
+    } 
+    .container-fluid.Useas button.Let’s {
+        margin-left: 63px;
+        margin-bottom: 30px;
+    }
+    .container-fluid.Customise h3 { 
+        line-height: 61px;
+        font-size: 37px;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .container-fluid.Customise p {
+        text-align: center;
+        margin-left: 0px;
+        font-size: 26px;
+    }
+    .container-fluid.Customise button.Let {
+        margin-left: 25%;
+    }
+    .text-center h1 { 
+        font-size: 37px;
+        line-height: 70px;
+    }
+    a.Startedbtn {
+        margin-left: 52px;
+    }
+    a.Getbtn {
+        margin-left: 59px;
+    }
+    .container-fluid.yourdata h3 { 
+        font-size: 41px; 
+        margin-top: 0%;
+    }
+    .container-fluid.yourdata p {
+        text-align: center; 
+        font-size: 16px; 
+    }
+    button.Read {
+        margin-left: 66px;
+        margin-bottom: 35px;
+    }
+    .container-fluid.sponsors p { 
+        font-size: 40px;
+    }
+    img.img-fluid.rounded.mx-auto.d-block.img1 {
+        width: 70%;
+        margin-bottom: 33px;
+    }
+    .container-fluid.YourWorks h3 { 
+        font-size: 36px;
+        text-align: center;
+    } 
+    .container-fluid.YourWorks p {
+        text-align: center; 
+        font-size: 20px; 
+    }
+    .container-fluid.WhatOur h2 {    
+    line-height: 55px;
+    }
+    button.Reads { 
+          margin-left: 0px;
+        }
+    .text-center {
+         margin-left: 0px !important;
+    }
+    h4.pt-5 {
+        margin-left: 0px !important;
+    }
+    p.text {
+        margin-left: 0px !important;
+    }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 425px)  and (max-width: 768px) {
+    .container-fluid.Work h3 { 
+        font-size: 50px;
+        text-align: center; 
+        margin-top: 0px;
+    }
+    .container-fluid.Work p {
+        text-align: center;  
+        margin-top: 0px;
+    }
+    .container-fluid.Work button.Tryit {
+        margin-left: 90px;
+    }
+    .container-fluid.Useas h2 { 
+        font-size: 44px;
+        text-align: center; 
+        margin-top: 0%;
+    }
+    .container-fluid.Useas p {
+        text-align: center;
+    }
+    .container-fluid.Customise h3 { 
+        font-size: 50px;
+        line-height: 50px; 
+    }
+    .container-fluid.Customise p {
+        text-align: center;
+        margin-left: 0px;
+    }
+    .container-fluid.yourdata h3 {
+        text-align: center; 
+        font-size: 60px; 
+        margin-top: 0%;
+    }
+    .container-fluid.yourdata p { 
+        font-size: 26px;
+        text-align: center; 
+    }
+    img.img-fluid.rounded.mx-auto.d-block.img1 {
+        margin-top: 50px; 
+    }
+    .container-fluid.YourWorks h3 { 
+        font-size: 33px;
+        margin-bottom: 34px; 
+        margin-top: 0%;
+    }
+    .container-fluid.Whitepace p.text2 { 
+        margin-left: 130px; 
+    }
+    .container-fluid.Whitepace p.text1 { 
+        margin-left: 140px;
+    }
+    .text-center p { 
+        font-size: 32px; 
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .container-fluid.Work h3 { 
+        font-size: 52px;
+        text-align: center; 
+        margin-top: 0px;
+    }
+    .container-fluid.Customise h3 {
+        margin-top: 0px;
+        text-align: center;
+        height: 133px;
+        font-size: 50px;
+        line-height: 68px;
+    }
+    button.Reads {
+        width: 100%;
+    } 
+.container-fluid.yourdata h3 { 
+    font-size: 50px;
+    text-align: center; 
+    margin-top: 0%;
+}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

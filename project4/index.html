@@ -1,0 +1,570 @@
+<!doctype html>
+<html lang="en">
+  <head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/animate.css">
+     <link rel="stylesheet" href="./css/custom.css">
+     <link rel="stylesheet" href="./css/responsive.css">
+    <title>practise-project</title>
+  </head>
+  <body> 
+
+    <!-- *********************************navber start****************************************** -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> 
+            <img src="./images/icon.png" class="img-fluid rounded mx-auto d-block" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#lastfooter">Home</a>
+                </li>
+                <li class="nav-item">
+                   <a class="nav-link" aria-current="page" href="#Commanding">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#hireus">Hire-Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Our">Company</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#start">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#fromfooter">contact-Us</a>
+                </li>
+            </ul>
+            <div class="d-grid gap-2 mx-auto d-md-flex"> 
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#singinModal" data-bs-whatever="@mdo">Sing-in</button> 
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal" data-bs-whatever="@mdo">Log-in</button>
+              </div>
+          </div>
+        </div>
+      </nav>
+      <!-- ********************singin from start***************************** -->
+      <div class="modal fade" id="singinModal" tabindex="-1" aria-labelledby="singinModalLabel" aria-hidden="true" class="bg-primary">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="SinginModalLabel">Please Singin </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Name:</label>
+                  <input type="text" class="form-control" id="recipient-name" placeholder="name">
+                </div>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Email:</label>
+                  <input type="text" class="form-control" id="recipient-email" placeholder="email">
+                </div>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Password:</label>
+                  <input type="text" class="form-control" id="recipient-email" placeholder="Password">
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="submit" class="btn btn-secondary" data-bs-dismiss="modal">save</button>
+              <button type="button" class="btn btn-primary">Send message</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ********************singin from end***************************** -->
+      <!-- ********************login from start***************************** -->
+      <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="loginModalLabel">You login here</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form> 
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Email:</label>
+                  <input type="text" class="form-control" id="recipient-email" placeholder="email">
+                </div>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Password:</label>
+                  <input type="text" class="form-control" id="recipient-email" placeholder="Password">
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Send message</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ********************login from end***************************** -->
+    <!-- *********************************navber end****************************************** -->
+    <!-- *********************************slide start****************************************** -->
+    <div class="container-fluid" id="slide">
+      <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/body.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="color: rgb(211, 15, 15); font-size: 30px;">First slide label</h5>
+              <p style="color: rgb(233, 25, 10); font-size: 25px;">Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/body1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="color:rgba(13, 241, 44, 0.514); font-size: 30px;">Second slide label</h5>
+              <p style="color: rgba(209, 160, 115, 0.651); font-size: 25px;">Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/body2.jpg" class="img-fluid mx-auto d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="font-size: 30px; color:rgba(85, 18, 18, 0.712)">Third slide label</h5>
+              <Some style="font-size: 30px; color:rgba(85, 18, 18, 0.712)">Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/body3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="color: rgb(18, 146, 168); font-size: 30px;">Third slide label</h5>
+              <p style="color: rgba(170, 20, 184, 0.925); font-size: 25px;">Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- *********************************slide end****************************************** -->
+    <!-- *********************************future plan start****************************************** -->
+    <div class="container-fluid" id="DISCOVER">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-6">
+          <p class="text-capitalize fs-1 fw-bolder mt-5">Let’s strengthen</p>
+          <p class="text-capitalize fs-1 fw-bolder Your">Your<br>Business</p>
+          <p class="fw-bolder Powerful">Powerful web and mobility appplications</p>
+          <p class="fw-bolder mx-auto We">We are trusted team behind your successful growth Get a QUOTE</p>
+          <a href="#Get"><button class="btn1">Get a QUOTE</button></a>
+        </div>
+        <div class="col-12 col-md-6 col-lg-6">
+          <img src="./images/body image.jpg" class="img-fluid rounded float-end" alt="...">
+        </div>
+      </div>
+    </div>                                                                                                                              
+    <!-- *********************************future plan end****************************************** -->
+    <!-- *****************************Commanding Services start********************************* -->
+    <div class="container-fluid" id="Commanding">
+      <div class="container">
+        <div class="row">          
+          <p class="text-center text-uppercase fs-2 fw-bolder mt-3">Commanding Services</p> 
+            <div class="card mx-auto" style="width: 22rem;">
+              <p class="mx-auto fs-4 fw-bolder">Digital-Marketing</p>
+              <img src="./images/Digital-Marketing.png" class="card-img-top img-fluid mx-auto" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+            <div class="card mx-auto" style="width: 22rem;">
+              <p class="mx-auto fs-4 fw-bolder">web development</p>
+              <img src="./images/web development.png" class="card-img-top img-fluid mx-auto" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+            <div class="card mx-auto" style="width: 22rem;">
+              <p class="mx-auto fs-4 fw-bolder">UX-UI Design</p>
+              <img src="./images/ux.jpg" class="card-img-top img-fluid mx-auto" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's contentSome quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div> 
+            <div class="card mx-auto" style="width: 22rem;">
+              <p class="mx-auto fs-4 fw-bolder">MB app</p>
+              <img src="./images/mb app.jpg" class="card-img-top img-fluid mx-auto" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+            <div class="card mx-auto" style="width: 22rem;">
+              <p class="mx-auto fs-4 fw-bolder">hire dedicated</p>
+              <img src="./images/hire dedicated.jpg" class="card-img-top img-fluid mx-auto" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+            <div class="card mx-auto" style="width: 22rem;">
+              <p class="mx-auto fs-4 fw-bolder">UX-UI Design</p>
+              <img src="./images/need.png" class="card-img-top img-fluid mx-auto" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's contentSome quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+            <a href="#Commanding"><button class="START mx-auto d-block">START A PROJECT</button></a>
+          </div>  
+        </div>
+      </div> 
+    <!-- *****************************Commanding Services end*************************************** -->
+    <!-- ******************************Boasting Achievement start*********************************** -->
+    <h2 class="text-center mx-auto fs-2 fw-bolder mt-4" id="Boasting">Boasting Achievements</h2>
+    <div class="container-fluid section mt-5">
+      <div class="container">
+         <div class="row">
+           <div class="col-12 col-md-12 col-lg-6 mx-auto d-block">
+             <h3 class="mx-auto d-block text-center fs-4 fw-bolder">2404+ Projects Delivered</h3>
+             <p class="mx-auto d-block text-center fs-6 fw-bolder">Building exceptional digital solutions for distinct business sizes and <br> industry verticals.</p>
+             <h3 class="mx-auto fs-4 fw-bolder text-center pt-4">Higher Client Retention Rate</h3>
+             <p class="mx-auto d-block text-center fs-6 fw-bolder">Widely- known for project performance, we are digital natives for <br> several businesses.</p>
+             <h3 class="mx-auto d-block text-center fs-4 fw-bolder pt-4">Client Happiness On-board</h3>
+             <p class="mx-auto d-block text-center fs-6 fw-bolder">With the focus on tangible results, we always deliver more than the <br> client’s expectations</p>
+             <h3 class="mx-auto d-block text-center fs-2 fw-bolder">Worldwide Services</h3>
+             <p class="mx-auto d-block text-center fs-6 fw-bolder">Expertise & flexibility to offer services across the globe without <br> compromising in work superiority.</p>
+           </div>
+           <div class="col-12 col-md-6 col-lg-3">
+             <h1 class="text-center mx-auto text-center fs-1 fw-bolder">9+</h1>
+             <p class="text-center mx-auto text-center fs-5 fw-bolder">EXPERIENCE</p>
+             <h1 class="text-center mx-auto text-center fs-1 fw-bolder pt-3">53+</h1>
+             <p class="text-center mx-auto text-center fs-5 fw-bolder">Employees</p>
+             <h1 class="text-center mx-auto text-center fs-1 fw-bolder pt-3">278+</h1>
+             <p class="text-center mx-auto text-center fs-5 fw-bolder">clients</p>
+             <h1 class="text-center mx-auto text-center fs-1 fw-bolder pt-3">2,404+</h1>
+             <p class="text-center mx-auto text-center fs-5 fw-bolder">Projects</p>
+           </div>
+           <div class="col-12 col-md-6 col-lg-3">
+             <p class="Years mx-auto d-block text-center">Years of design and development experience</p>
+             <p class="Expert text-center">Expert minds</p>
+             <p class="Happy text-center">Happy clients</p>
+             <p class="Successful text-center">Successful projects</p>
+           </div>
+         </div>
+      </div>
+    </div>             
+    <!-- *********************************Boasting Achievement end****************************************** -->
+    <!-- *********************************my self start****************************************** -->
+    <div class="container-fluid" id="Get">
+      <div class="row">
+        <h2 class="Remar">We Are Remarkable</h2> 
+        <div class="col-12 col-md-1 col-lg-1"></div>
+        <div class="col-12 col-md-5 col-lg-5">
+          <h5 class="bliss">Customer bliss is our only mantra!</h5>
+          <!-- ********************navber start******************************** -->
+          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
+            </li> 
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active w-100" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab text-center">Home Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptatum voluptatem numquam voluptate cum hic quod esse explicabo exercitationem eligendi?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem voluptatum voluptas dolor facere, expedita in dolorum quidem? Possimus, ullam laboriosam.</div>
+            <div class="tab-pane fade w-100" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab text-center">Profile Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate aperiam officia dolores natus voluptatibus facere? Quidem, exercitationem cupiditate repudiandae quam aut in eum temporibus quis repellendus adipisci fuga necessitatibus, atque laboriosam aliquam, voluptatum tenetur nesciunt. Facilis sapiente explicabo sequi quam?</div>
+            <div class="tab-pane fade text-center w-100" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">Contact Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, nihil quia placeat molestiae mollitia iste quo accusantium in delectus quasi, ut assumenda architecto commodi et blanditiis voluptatem soluta aliquid repellat ipsum veniam praesentium? Et nihil quas aspernatur, libero nam similique?</div> 
+          </div>
+          <a href="#DISCOVER"><button class="US">DISCOVER US</button></a>
+        </div> 
+        <!-- ********************navber end******************************** -->
+        <div class="col-12 col-md-6 col-lg-6">
+          <div class="text-center parent">           
+            <h1 class="Bug mx-auto d-block">Bugging Ideas?</h1>
+            <h5 class="Take mx-auto d-block">Take a swift leap with IndyLogix <br> Solutions and Get The Ball Rolling</h5>
+            <img src="./images/businessman-idea.jpg" class="rounded img-fluid mx-auto d-block" alt="...">
+          </div>
+        </div> 
+      </div>
+    </div>
+    <!-- *********************************my self end****************************************** -->
+    <!-- *********************************Testimonial end****************************************** -->
+    <div class="container-fluid" id="Our">
+      <div class="row">
+        <h1 class="text-center test">Testimonial</h1>
+        <h1 class="text-center OurClients">Our Clients Love to Endorse Us</h1> 
+          <!-- ***************crousel slide start*********************** -->
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <h5 class="Theteam pppsemibld">The team @IndyLogix are very collaborative, and I am very impressed with their quick response time. <br> Their tech team is highly qualified and could quickly give expert solutions. Very professional <br> and courteous. Loved their transparent work processes. Would like to work with them in the future again. <br> I highly recommend IndyLogix.</h5>
+              </div>
+              <div class="carousel-item">
+                <h5 class="Ihave pppsemibld">I have worked with IndyLogix since 2014 and they are very honest, reliable and talented. <br> As well as affordable and easy to work with.I have worked with IndyLogix since 2014 and they are very honest, reliable and talented. <br> As well as affordable and easy to work with.</h5>
+              </div>
+              <div class="carousel-item">
+                <h5 class="Ihave pppsemibld">I have worked with IndyLogix since 2014 and they are very honest, reliable and talented. <br> As well as affordable and easy to work with.I have worked with IndyLogix since 2014 and they are very honest, reliable and talented. <br> As well as affordable and easy to work with.</h5>
+              </div>
+              <div class="carousel-item">
+                <h5 class="IndyLogix pppsemibld">IndyLogix has provided my company with a range of IT services from website <br> development to CMS systems.IndyLogix has a very good understanding of business requirements <br> and can interact easily with clients to feed the technical information to their team.The standard of work is to a high quality <br> and their availability (even during out of office hours) sets him apart from competitors providing <br> similar services. It is therefore easy to work around my timescales. Highly recommend.</h5>
+              </div>
+              <div class="carousel-item">
+                <h5 class="Inmy pppsemibld">In my 20 Years of eCommerce and Web experience, I have worked with many companies in India. <br> However, I am glad we found IndyLogix in 2012 and since have worked on many WordPress CMS, <br> eCommerce and Responsive Website projects together. <br> The quality of work, communication and turn around time has been exceptional.</h5>
+              </div>
+              <div class="carousel-item">
+                <h5 class="Inmy pppsemibld">We had worked with IndyLogix for our WordPress Website CMS project. We are pleased with the way <br> br  they executed the project in time and within budget. Very Professional with high <br> technical Knowledge. Definitely, one of the best Outsourcing firms we have used from India. <br> We highly recommend IndyLogix for your outsourcing needs.</h5>
+              </div>
+            </div>
+            <button class="carousel-control-prev before" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next after" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!-- ***************crousel slide end*********************** -->
+      </div>
+    </div>
+    <!-- *********************************Testimonial start****************************************** -->
+     <!-- img section start -->
+     <div class="container-fluid sec" id="Testimonial">
+      <div class="conatiner">
+        <div class="row">
+            <div class="col-lg-2 col-md-6 col-12 wow slideInUp">
+            <div class="img1  rounded mx-auto d-block">
+              <img src="./images/img1.png"  class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 col-12 wow rotateInDownLeft">
+            <div class="img2 rounded mx-auto d-block">
+              <img src="./images/img2.png"  class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 col-12 wow rotateInDownRight">
+            <div class="img3 rounded mx-auto d-block">
+              <img src="./images/img3.png"  class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 col-12 wow rotateInDownDown">
+            <div class="img4 rounded mx-auto d-block">
+              <img src="./images/img4.png"  class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 col-12 wow rotateInDownLeft">
+            <div class="img5 rounded mx-auto d-block">
+              <img src="./images/img6.png"  class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 col-12 wow rotateInDownLeft">
+            <div class="img6 rounded mx-auto d-block">
+              <img src="./images/img7.png"  class="img-fluid" alt="">
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- img section end -->
+
+       <!-- 3img start -->
+       <div class="container-fluid" id="start">
+        <div class="container">
+          <div class="row">
+            <div class="card mx-auto" style="width: 22rem;">
+              <p class="mx-auto fs-4 fw-bolder">UX-UI Design</p>
+              <img src="./images/tabimg1.jpg" class="card-img-top img-fluid mx-auto" alt="...">
+              <div class="card-body">
+                <p class="card-text">Whata pppsemibld">What is Neos? Features of Neos <br> CMS & Who Can Help Build a <br> Site in it?</p>
+                <a href="#lastfooter"><button type="button" class="btn btn-primary">READ MORE</button></a>
+              </div>
+            </div>
+            <div class="card mx-auto" style="width: 22rem;">
+              <p class="mx-auto fs-4 fw-bolder">UX-UI Design</p>
+              <img src="./images/tabimg2.jpg" class="card-img-top img-fluid mx-auto" alt="...">
+              <div class="card-body">
+                <p class="card-text">Whatb pppsemibld">The Cessation (BAN) of Google <br> Search in Australia? – Probable <br> Impacts.</p>
+                <a href="#Testimonial"><button type="button" class="btn btn-success">READ MORE</button></a>
+              </div>
+            </div>
+            <div class="card mx-auto" style="width: 22rem;">
+              <p class="mx-auto fs-4 fw-bolder">UX-UI Design</p>
+              <img src="./images/tabimg3.jpg" class="card-img-top img-fluid mx-auto" alt="...">
+              <div class="card-body">
+                <p class="card-text">Whatb pppsemibld">The Cessation (BAN) of Google <br> Search in Australia? – Probable <br> Impacts.</p>
+                <a href="#slide"><button type="button" class="btn btn-secondary">READ MORE</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div> 
+      <!-- 3img end -->
+      <!-- from footer section start -->
+      <div class="container-fluid footer" id="fromfooter">
+         <div class="row"> 
+          <form action="" class="mt-5">
+            <h1 class="Get pppsemibld">Get Free Consultation</h1>
+            <h3 class="Boost pppsemibld">Boost your business productivity. Let’s launch a great solution, soon!</h3>
+          <div class="row">
+            <div class="col-2"></div>
+            <div class="col-4">
+              <input type="text" class="form-control is-invalid" placeholder="First name" aria-label="First name">
+            </div>
+            <div class="col-4">
+              <input type="text" class="form-control is-invalid" placeholder="Last name" aria-label="Last name">
+            </div>
+            <div class="col-2"></div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-2"></div>
+            <div class="col-4">
+              <input type="text" class="form-control is-invalid" placeholder="Phone-number" aria-label="Phone-number">
+            </div>
+            <div class="col-4">
+              <input type="text" class="form-control is-invalid" placeholder="Your Company" aria-label="Your Company">
+            </div>
+            <div class="col-2"></div>
+          </div> 
+         <div class="row">
+          <div class="col-2"></div>
+          <div class="col-8">
+            <textarea class="form-control mt-4 is-invalid" id="exampleFormControlTextarea1" placeholder="Brief your Project Details"></textarea>
+          </div>
+          <div class="col-2"></div>
+         </div>
+         <button type="submit" class="WORK mt-3 d-grid mx-auto pppsemibld">WORK WITH US</button>
+          </form>
+        </div>
+      </div>
+      <!-- from footer section end -->
+      <!--  footer section start -->
+     <div class="container-fluid last" id="lastfooter"> 
+        <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-1">
+              <img src="./images/icon.png" class="img-fluid mx-auto d-grid"  alt="">
+            </div>
+            <div class="col-lg-4">
+              <h6 class="Ashram pppsemibld mx-auto d-block">405-407, Dev Nandan Mall, Ashram Road, <br>
+                Opp. Sanyas Ashram, Ahmedabad, Gujarat 380006</h6>
+            </div>
+            <div class="col-lg-5">
+              <a href="#Get"><button type="submit" class="btn2 mt-3 d-grid mx-auto pppsemibld">SUBSCRIBE</button></a>
+            </div>
+            <div class="col-lg-1"></div>
+        </div>
+        <!-- ********************************************************************** -->
+        <div class="row mx-auto text-center" id="hireus">
+          <div class=" col-12 col-md-6 col-lg-3 text-center mx-auto d-block">
+            <h2 class="Get1 pppsemibld">Get In Touch</h2>
+            <div class="row">
+              <div class="col-6 mt-20px"> 
+             <img src="./images/usa images.jpg" class="img-fluid mx-auto d-block usaimg" alt="">
+              </div>
+              <div class="col-6"> 
+              <p href="+17453090242" class="usanmbr mx-auto d-block">+17453090242</p>
+              </div>
+            </div>
+             <div class="row">
+               <div class="col-6">
+                <img src="./images/india img.png" class="img-fluid mx-auto d-block usaimg" alt="">
+               </div>
+               <div class="col-6">
+                <p href="+91 75748 16161" class="usanmbr mx-auto d-block">+917574816161</p>
+               </div>
+              </div>
+                <div class="row">
+                  <div class="col-6">
+                    <img src="./images/uk img.png" class="img-fluid mx-auto d-block usaimg" alt="">
+                    </div>
+                      <div class="col-6">
+                        <p href="+44 1174 090244" class="usanmbr mx-auto d-block">+441174090244</p>
+                      </div>
+                </div> 
+                 <p href="tel:+91 96877 16161" class="hr">HR:<i class="fa-phone fa" aria-hidden="true"></i>+9196877 16161</p>
+                  <p href="mailto:info@indylogix.com" class="info"><i class="fa fa-envelope"></i></i> info@indylogix.com</p>
+                 <a href="index.html"><button type="submit" class="btn3 d-grid mx-auto pppsemibld">SAY HELLO!</button></a>
+           </div>
+           <!-- *************************************************************************  -->
+             <!-- <div class="col-lg-1 col-12 col-md-6"></div> -->
+             <div class="col-lg-3 col-12 col-md-6 text-center mx-auto d-block"> 
+                  <h1 class="Services pppsemibld text-center">Services</h1>
+                  <P class="add pppsemibld  text-center mx-auto d-block">Mobile App Development</P>
+                  <P class="add pppsemibld  text-center mx-auto d-block">Web Development</P>
+                  <P class="add pppsemibld  text-center mx-auto d-block">UI/UX Design </P>
+                  <P class="add pppsemibld  text-center mx-auto d-block">Digital Marketing Agency <br> Ahmedabad</P>
+                  <P class="add pppsemibld  text-center mx-auto d-block">Agile Development</P> 
+              </div> 
+          <div class="col-lg-3 col-12 col-md-6 text-center mx-auto d-block">
+                <h1 class="company pppsemibld">COMPANY</h1>
+                <p class="ourself pppsemibld">About Us</p>
+                <p class="ourself pppsemibld">Career</p>
+                <p class="ourself pppsemibld">Blog</p>
+                <p class="ourself pppsemibld">Contact us</p>  
+          </div>
+          <div class="col-lg-3 col-12 col-md-6 text-center mx-auto d-block">
+            <h4 class="Hire pppsemibld text-center mx-auto d-block">Hire Full Stack Developer</h4>
+            <p class="hire pppsemibld text-center mx-auto d-block">Hire Developers</p>
+            <p class="hire pppsemibld text-center mx-auto d-block">Hire Devops Developer</p>
+            <p class="hire pppsemibld text-center mx-auto d-block">Hire Fronted Developer</p>
+            <p class="hire pppsemibld text-center mx-auto d-block">Hire Backend Developers</p>
+            <p class="hire pppsemibld text-center mx-auto d-block">Hire Mobile App Dveloper</p>
+            <p class="hire pppsemibld text-center mx-auto d-block">Hire SEO Expert</p>
+            <p class="hire pppsemibld text-center mx-auto d-block">Hire Shopify Developer</p>
+          </div>
+          </div>
+        </div> 
+      <!--  footer section end -->
+      <!-- last footer section start -->
+        <div class="container-fluid lastfooter" id="lastfooter">
+        <div class="row">
+          <div class="brdr"><hr></div>
+          <div class="col-lg-1 col-md- col-12"></div> 
+          <div class="col-lg-5 col-md-6 col-12">
+            <p class="link pppsemibld">© 2011-2021 — Indylogix Solutions Pvt Ltd. All Rights Reserved.</p>
+            <img src="./images/short1.png" class="img-fluid" alt=""> 
+          </div> 
+          <div class="col-lg-5 col-md-6 col-12">
+            <div class="row">
+              <div class="col-1"> 
+                <p class="Privacy pppsemibld">Privacy</p>
+              </div>
+              <div class="col-7">
+                <p class="We pppsemibld">We Support letsGiveFood</p>
+              </div>
+              <div class="col-4">
+                <img src="./images/Lets-Give.png" class="img-fluid mx-auto d-block" alt="">
+              </div>
+            </div> 
+          </div> 
+          <div class="col-lg-1 col-md- col-12"></div> 
+        </div>
+      </div> 
+      <!-- last footer section end -->
+      <script src="js/wow.min.js"></script>
+      <script>
+      new WOW().init();
+      </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+  </body>
+</html>

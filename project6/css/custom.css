@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;600;700;800&family=Nunito:wght@200&display=swap');
+
+body{
+    font-family: 'Epilogue', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+.navbar-light {
+    background-color: #28293E;
+}
+img.img-fluid.logo { 
+    margin-left: 60px;
+}
+button.btn.btn-primary {
+    margin-left: 50px;
+}
+li.nav-item { 
+    font-size: 20px;
+   color: white;
+    font-weight: bolder;
+}
+a.nav-link {
+    color: white !important;
+}
+button.btn.btn-outline-success {
+    color: #fff;
+}
+/* *******************************navber end****************************** */
+.container-fluid.sec { 
+    background-color: #28293E;
+    padding-bottom: 45px;
+}
+p.Gabriel {
+    margin-top: 75px; 
+    font-family: 'Epilogue'; 
+    font-weight: 400;
+    font-size: 16px; 
+    text-transform: uppercase;
+    color: #EF6D58; 
+}
+h1.Simple {  
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+h3.Agency { 
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.64);
+}
+button.See { 
+    padding: 17px;
+    border: none;
+    background: #EF6D58;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+/* *************************Gabriel Pires*************************  */
+.conatiner-fluid.Service {
+    background: #f1e4dd;
+    padding-bottom: 43px;
+}
+.mx-auto{ 
+    top: 974px; 
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px; 
+    letter-spacing: 3px;
+    text-transform: uppercase; 
+    color: #EF6D58;
+    margin-top: 40px;
+}
+.How {
+    height: 128px; 
+    font-family: 'Epilogue'; 
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #391400;
+}
+svg.svg-inline--fa.fa-desktop.fa-w-18 {
+    font-size: 36px;
+    background-color: red;
+    margin-left: 100px;
+
+}
+p.Design {
+    font-size: 20px;
+    text-align: center;
+    line-height: 0px; 
+}
+.container-fluid.contact {
+    background-color: #28293E;
+}
+.main { 
+    margin-top: 95px; 
+    background: #FFFFFF;
+    border-radius: 6px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
+ 
+h3.Get {
+    margin-top: 25px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 32px;
+    color: #391400;
+    margin-left: 52px;
+    padding-top: 25px;
+}
+label.form-label {
+    margin-left: 32px;
+}
+textarea#exampleFormControlTextarea1 {
+    margin-top: 20px;
+    margin-left: 23px;
+}
+button.btn { 
+    background: #EF6D58;
+    width: 121px;
+    font-size: 19px;
+    font-weight: 600; 
+    margin-top: 13px; 
+    color: white; 
+    margin-left: 50px;
+}
+h3.Contact {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #EF6D58;
+    margin-top: 124px;
+    margin-left: 100px;
+}
+h2.Me {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+    margin-left: 94px;
+}
+p.digital {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.64);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+     
+}
+textarea#exampleFormControlTextarea1 {
+    margin-left: 45px;
+}
+h4.nmbr {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+}

@@ -1,0 +1,434 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li.nav-item {
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 700;
+}
+a.nav-link:hover {
+    border: 2px;
+    background-color: blueviolet; 
+    text-align: center;
+    color: white !important;
+    text-align: center; 
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+
+}
+p.text-capitalize.fs-1.fw-bolder {
+    color: #3B3663;
+    margin-left: 10%;
+}
+p.fw-bolder.Powerful.Your {
+    margin-left: 27%;
+    color: #3B3663;
+    font-family: sans-serif;
+}
+p.fw-bolder.Powerful.Powerful {
+    margin-left: 10% !important;
+    color: #3B3663;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+p.fw-bolder.mx-auto.We {
+    margin-left: 10% !important;
+    font-size: 18px;
+    color: #3B3663;
+    font-family: sans-serif;
+} 
+.btn1 {
+    border: 2px;
+    color: #e9dddd;
+    background-color: #EF4D3E;
+    padding: 15px 5px;
+    margin-top: 18px;
+    border-radius: 8px;
+    margin-left: 10%;
+    font-weight: bold;
+    width: 150px;
+    margin-bottom: 28px;
+}
+.btn1:hover{
+    background-color: #0E2541;
+}
+p.text-center.text-uppercase.fs-2.fw-bolder {
+    color: #0E2541 !important;
+}
+.card.mx-auto {
+    background: rgb(243, 237, 237);
+    margin-top: 18px;
+}
+.card.mx-auto:hover {
+    background-color: #3B3663;
+    transition: .15s ease;
+    -webkit-transition: .15s ease;
+    -moz-transition: .15s ease;
+    -ms-transition: .15s ease;
+    -o-transition: .15s ease;
+}
+p.mx-auto.fs-4.fw-bolder:hover {
+    color: white;
+}
+button.START.mx-auto.d-block {
+    border: 2px;
+    color: #e9dddd;
+    background-color: #EF4D3E;
+    padding: 15px 5px;
+    border-radius: 8px;
+    font-weight: bold;
+    width: 200px;
+    margin-top: 50px; 
+}
+button.START.mx-auto.d-block:hover{
+    background-color: #3B3663;
+}
+a {
+    text-decoration: none;
+}
+.Years {
+    font-size: 18px;
+    color: #3B3663;
+    font-weight: bolder;
+    margin-top: 30px;
+    text-align: center;
+    /* width: 365px; */
+}
+.Expert {
+    font-size: 18px;
+    color: #3B3663;
+    font-weight: bolder;
+    margin-top: 60px;
+    text-align: center;
+}
+.Happy {
+    font-size: 21px;
+    color: #3B3663;
+    font-weight: bolder;
+    margin-top: 79px;
+    text-align: center;
+}
+.Successful {
+    font-size: 20px;
+    color: #3B3663;
+    font-weight: bolder;
+    margin-top: 95px;
+    text-align: center;
+}
+.Remar {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    color: #3B3663;
+    font-weight: bold;
+}
+.bliss {
+    font-size: 23px;
+    color: #3B3663;
+    font-weight: bold;
+    margin-top: 20px; 
+    text-align: center;
+}
+.text-center.parent {
+    position: relative;
+   /* width: 500px; */
+} 
+.Bug {
+    position: absolute;
+    margin-top: 22%;
+    margin-left: 3%;
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: 50px;
+    width: 100%;
+}
+h5.Take {
+    position: absolute;
+    margin-top: 36%;
+    margin-left: 3%;
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: 25px;
+    width: 100%;
+}
+.US {
+    border: 2px;
+    color: #e9dddd;
+    background-color: #EF4D3E;
+    padding: 15px 5px;
+    border-radius: 8px;
+    margin-right: 30%;
+    font-weight: bold;
+    width: 200px;
+    margin-top: 30px;
+    color: #FFFFFF;
+}
+.US:hover {
+    background-color: #0E2541;
+    color: #EF4D3E;
+}
+h1.text-center.test {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 41px;
+    color: #EF4D3E;
+}
+h1.text-center.OurClients { 
+    color: #0E2541;
+    font-weight: bold;
+}
+ 
+.Theteam{
+    text-align: center;
+    color: #0E2541;
+  }
+  .Ihave{
+    text-align: center;
+    color: #0E2541;
+  }
+  .IndyLogix{
+    text-align: center;
+    color: #0E2541;
+  }
+  .Inmy{
+    text-align: center;
+    color: #0E2541;
+  }
+  .sec {
+    width: 100%;
+    height: 50%;
+}
+.img1{
+    width: 100px;
+    /* height: 5px; */
+    margin-top: 100px;
+    margin-left: 140px;
+  }
+  .img2{
+    width: 140px;
+    /* height: 5px; */
+    margin-top: 140px;
+    margin-left: 60px;
+  }
+  .img3{
+    width: 100px;
+    /* height: 5px; */
+    margin-top: 100px;
+    margin-left: 50px;
+  }
+  .img4{
+    width: 100px;
+    /* height: 5px; */
+    margin-top: 100px;
+    margin-left: 20px;
+  }
+  .img5{
+    width: 100px;
+    /* height: 5px; */
+    margin-top: 100px;
+    margin-right: 80px;
+  }
+  .img6{
+    width: 100px;
+    /* height: 5px; */
+    margin-top: 100px;
+    margin-right: 250px;
+  }
+  .container-fluid.footer {
+    margin-top: 30px; 
+    background: url(../images/last\ image.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-bottom: 16px;
+    background-size: cover;
+}
+.Get { 
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+    width: 100%;
+    color: white;
+}
+.Boost {
+   text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 100%;
+    margin-top: 16px;
+    color: #FFFFFF;
+}
+input.form-control {
+    height: 50px !important;
+}
+.WORK {
+    background-color: #EF4D3E; 
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    border: none;
+}
+.WORK:hover { 
+    background-color: #0E2541;
+    color: white;
+}
+.sub {
+    background-color: #EF4D3E;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 50%;
+    color: rgba(255, 255, 255, 0.678);
+    border: none;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.sub:hover { 
+    background-color: #0E2541;
+    color: white;
+}
+.container-fluid.last {
+    margin-top: 33px;
+}
+h6.Ashram.pppsemibld {
+    /* width: 400px; */
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 700;
+}
+button.btn2.mt-3.d-grid.mx-auto.pppsemibld {
+    padding: 20px;
+    width: 40%;
+    border: none;
+    border-radius: 15px; 
+    background-color: #EF4D3E;
+    color: #e9dddd;
+}
+button.btn2.mt-3.d-grid.mx-auto.pppsemibld:hover {
+    background-color: #0E2541;
+
+}
+h2.Get1.pppsemibld {
+    margin-top: 40px;
+    font-size: 40px;
+    text-align: center;
+}
+.col-6 { 
+    margin-top: 30px !important;
+}
+img.img-fluid.usaimg {
+    width: 50% !important;
+}
+p.usanmbr {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0E2541;
+}
+p.usanmbr:hover{
+    color: #EF4D3E;
+}
+p.hr {
+    font-size: 22px;
+    font-weight: 700; 
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #0E2541;
+}
+p.hr:hover {
+    color: #EF4D3E;
+}
+i.fa.fa-envelope {
+    font-size: 40px;
+    color: red;
+}
+p.info { 
+    font-size: 20px;
+    font-weight: 700;
+    color: #0E2541;
+}
+.info:hover{
+    color: #EF4D3E;
+}
+button.btn3.d-grid.mx-auto.pppsemibld  {
+    padding: 20px;
+    width: 60%;
+    border: none;
+    border-radius: 15px; 
+    background-color: #EF4D3E;
+    color: #e9dddd;
+}
+button.btn3.d-grid.mx-auto.pppsemibld:hover {
+    background-color: #0E2541;
+
+}
+h1.Services.pppsemibld {
+    margin-top: 38px; 
+    font-size: 50px;
+}
+p.add.pppsemibld {
+    width: 245px;
+    font-weight: 700; 
+    margin-top: 40px; 
+}
+p.add.pppsemibld:hover {
+    color: #EF4D3E;
+}
+h1.company.pppsemibld {
+    margin-top: 50px;
+}
+p.ourself.pppsemibld {
+    text-align: center;
+    font-size: 23px;
+    font-weight: 700;
+    margin-top: 41px;
+}
+p.ourself.pppsemibld:hover {
+    color: #EF4D3E;
+}
+h4.Hire.pppsemibld.text-center.mx-auto.d-block { 
+    font-weight: 700;
+    margin-top: 56px;
+}
+p.hire.pppsemibld.text-center.mx-auto.d-block {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 35px;
+}
+p.hire.pppsemibld.text-center.mx-auto.d-block:hover {
+    color: #EF4D3E;
+}
+p.link.pppsemibld {
+    color: #0E2541;
+    font-weight: 700;
+}
+p.link.pppsemibld:hover {
+    color: #EF4D3E;
+}
+.container-fluid.lastfooter {
+    height: 120px;
+}
+p.Privacy.pppsemibld {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: #0E2541;
+}
+p.Privacy.pppsemibld:hover {
+    color: #EF4D3E;
+
+}
+p.We.pppsemibld {
+    text-align: center;
+    font-weight: 700;
+    margin-top: 5px;
+    color: #0E2541;
+}
+p.We.pppsemibld:hover {
+    color: #EF4D3E;
+}
